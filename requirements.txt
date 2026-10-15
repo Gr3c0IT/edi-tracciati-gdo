@@ -1,0 +1,9 @@
+pandas
+openpyxl
+xlrd
+pyodbc
+sqlalchemy
+python-dotenv
+google-api-python-client
+google-auth
+google-auth-oauthlib

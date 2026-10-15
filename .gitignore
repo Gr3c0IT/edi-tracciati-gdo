@@ -1,0 +1,46 @@
+# --- Segreti e configurazione locale (mai pubblicare) ---
+.env
+auth_config.yaml
+credentials.json
+token.pickle
+*.pickle
+password_output.txt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- File di dati ed export (mai pubblicare) ---
+*.pdf
+*.xml
+*.p7m
+*.xsl
+*.html
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.pptx
+*.log
+*.exe
+*.bcp
+*.txt
+!requirements.txt
+
+# --- Output generati dagli script ---
+logs/
+temp_images/
+output_*/
+Fatture_*/
+immagini_articoli/
+importa_ubicazioni.sql
+update_categorie_CF.sql
+cf_update.sql
+output*.sql
